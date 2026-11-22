@@ -1,0 +1,18 @@
+{
+  "name": "nova-theme",
+  "version": "1.0.0",
+  "description": "Tailwind CSS setup for Nova WordPress Theme",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/nova.min.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./css/nova.min.css --watch",
+    "dev": "tailwindcss -i ./src/input.css -o ./css/nova.min.css --watch"
+  },
+  "keywords": [],
+  "author": "Afzal",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "gsap": "^3.15.1",
+    "tailwindcss": "^4.3.5"
+  }
+}
